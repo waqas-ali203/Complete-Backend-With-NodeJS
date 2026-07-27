@@ -57,3 +57,6 @@ const message = "user_id=1"
 const signature = crypto.createHmac('sha256', secret).update(message).digest("hex");
 
 console.log(signature)
+
+
+
