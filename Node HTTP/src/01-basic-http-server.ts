@@ -1,6 +1,6 @@
 import http, { IncomingMessage , Server, ServerResponse } from "node:http";
 
-const PORT = 3000;
+const PORT = 5000;
 
 // http.createServer create low level http Server
 // callback is going to run for every incoming http req 
